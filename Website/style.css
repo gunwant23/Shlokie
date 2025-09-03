@@ -1,0 +1,119 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    background-color: #fff;
+    color: #6A2C70;
+}
+
+/* Header */
+header {
+    background-color: #F9ED69;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #6A2C70;
+    font-weight: 700;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 50px;
+    background-color: #FFF3C7;
+}
+
+.hero-image {
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hero-text {
+    max-width: 600px;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    text-align: center;
+    color: #B83B5E;
+    font-weight: 500;
+}
+
+/* Section Heading */
+.section-heading h2 {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #F08A5D;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    color: white;
+    border-top: 2px solid #B83B5E;
+    border-bottom: 2px solid #B83B5E;
+}
+
+/* Grid Section */
+.grid-section {
+    padding: 40px;
+    background-color: #FFF7DA;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #6A2C70;
+    border-radius: 12px;
+    background-color: #FDE8CD;
+    transition: transform 0.2s ease;
+}
+
+.grid-item:hover {
+    transform: scale(1.03);
+}
+
+.grid-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 25%;
+    margin-bottom: 15px;
+    border: 2px solid #000000;
+}
+
+.grid-item p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #B83B5E;
+}
+
+/* Footer */
+footer {
+    padding: 20px 40px;
+    background-color: #6A2C70;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #f0f0f0;
+}
+
+footer p {
+    margin: 6px 0;
+}
